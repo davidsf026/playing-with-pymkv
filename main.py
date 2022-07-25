@@ -53,8 +53,8 @@ fileA.remove_track(2)
 fileA.mux(dirOutput + '1.mkv')
 
 '''
-Essa pode ser uma ideia interessante, juntar dois arquivos e ir operando, porque não pegar os tracks e juntar em um mkv,
-mas tem que ver se ele aceita importar os anexos (attachments).
+Essa pode ser uma ideia interessante, juntar dois arquivos e ir operando não funciona, então porque não pegar os tracks
+e juntar em um mkv, mas tem que ver se ele aceita importar os anexos (attachments).
 
 >>> from pymkv import MKVFile
 >>> file = MKVFile()
